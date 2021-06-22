@@ -1,26 +1,106 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
 
-<head>
-  <title>Portfolio</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-</head>
-
-<body>
-
+  <body>
     <header>
-            <h1>
-                Portfolio
-            </h1>
-                <p>
-                    Rachel Panico
-                </p>
+      <h1>Rachel Panico</h1>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="./links/jobresume.mht" target="_blank">Resume</a>
+      </nav>
     </header>
 
-    <main>
+    <section class="hero-banner">
+      <figure class="picture">
+        <img class="img" src="assets/hero_banner.png" alt="header picture"/>
+        <figcaption>Web Dev est. 2021</figcaption>
+      </figure>
+    </section>
 
+    <main class="second-section">
 
+      <section class="second" id="about-me">
+          <h2 class="headers">About me</h2>
+          <p class="fb" id="info">My name is Rachel Panico. I acquired a BS in cell and molecular biology from USF Tampa in 2019.</p>
+      </section>
+
+      <section class="second" id="work">
+          <h2 class="headers">Work</h2>
+          <article class="array" class="fb">
+            <figure class="bigpic">
+                <a href="#">
+            <img  src="assets/hero_banner.png" alt="work picture1"/>
+              </a> 
+              <figcaption>
+                Cakes
+              </figcaption>
+            </figure>
+
+             <figure>
+              <a href="#">
+               <img src="assets/hero_banner.png" alt="header picture2"/>
+            </a>
+            <figcaption>
+              Pies
+            </figcaption>
+          </figure>
+
+            <figure>
+              <a href="#">
+              <img src="assets/hero_banner.png" alt="header picture3"/>
+            </a>
+            <figcaption>
+              Others
+            </figcaption>
+          </figure>
+
+          <figure>
+            <a href="#">
+            <img src="assets/hero_banner.png" alt="header picture4"/> 
+          </a> 
+          <figcaption>
+            Puzzles
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="#">
+          <img src="assets/hero_banner.png" alt="header picture5"/> 
+        </a> 
+        <figcaption>
+          Kitty Cats
+        </figcaption>
+      </figure>
+          </article>
+          
+      </section>
+
+      <section class="second" id="contact-me">
+          <h2 class="headers">Contact me</h2>
+        <div id="contact" class="fb">
+            <div class="input">(727) 459-8014</div>
+            <div class="input">rachelpanico@hotmail.com</div>
+            <div class="input"id="gitLink"> 
+                <a href="https://github.com/panicor" target="_blank">GitHub</a>
+        <div>
+        </div>
+      </section>
+
+      <section class="second" id="resume">
+          <h2 class="headers">Resume</h2>
+          <div class="fb" id="linklink">
+          <a class = "resumelink" href="./links/jobresume.mht" target="_blank">Resume</a>
+          </div>
+      </section>
     </main>
-</body>
+
+  </body>
+</html>
+ 
